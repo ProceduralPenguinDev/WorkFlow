@@ -108,13 +108,13 @@ public class CustomShowInputDialog
 // 	    startTimeLabel.setVerticalTextPosition(JLabel.NORTH);
 // 	   startTimeLabel.setHorizontalTextPosition(JLabel.LEFT);
  	    changeIcon iconChanger = new changeIcon();
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Sunday.png", sunday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\SundayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Monday.png", monday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\MondayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Tuesday.png", tuesday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\TuesdayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Wednesday.png", wednesday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\WednesdayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Tuesday.png", thursday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\TuesdayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Friday.png", friday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\FridayClicked.png");
- 	    iconChanger.setIconAndStyleCheckBox("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Sunday.png", saturday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\SundayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Sunday.png", sunday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\SundayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Monday.png", monday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\MondayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Tuesday.png", tuesday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\TuesdayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Wednesday.png", wednesday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\WednesdayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Tuesday.png", thursday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\TuesdayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Friday.png", friday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\FridayClicked.png");
+ 	    iconChanger.setIconAndStyleCheckBox("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Sunday.png", saturday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\SundayClicked.png");
  	    
  	    Color buttonAfterClick = new Color(189,16,0);
  	    Color buttonClicked = new Color(220,16,0);
@@ -126,13 +126,13 @@ public class CustomShowInputDialog
 // 	    buttonActions fridayStateChanger = new buttonActions(friday, Color.WHITE,buttonAfterClick,buttonClicked);
 // 	    buttonActions saturdayStateChanger = new buttonActions(saturday, Color.WHITE,buttonAfterClick,buttonClicked);
  	    
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Sunday.png", sunday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\SundayClicked.png");         
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Monday.png", monday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\MondayClicked.png");         
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Tuesday.png", tuesday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\TuesdayClicked.png");      
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Wednesday.png", wednesday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\WednesdayClicked.png");
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Tuesday.png", thursday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\TuesdayClicked.png");     
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Friday.png", friday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\FridayClicked.png");         
- 	    changeColorOnClick("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\Sunday.png", saturday, "C:\\Users\\s591136\\Documents\\Classes\\ComSci\\SundayClicked.png");       
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Sunday.png", sunday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\SundayClicked.png");         
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Monday.png", monday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\MondayClicked.png");         
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Tuesday.png", tuesday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\TuesdayClicked.png");      
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Wednesday.png", wednesday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\WednesdayClicked.png");
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Tuesday.png", thursday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\TuesdayClicked.png");     
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Friday.png", friday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\FridayClicked.png");         
+ 	    changeColorOnClick("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\Sunday.png", saturday, "X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\SundayClicked.png");       
  	    
  	    dayButtonPanel.setBackground(Color.white);
  	    dayButtonPanel.add(sunday);

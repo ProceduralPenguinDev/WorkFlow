@@ -117,7 +117,8 @@ public class Gui {
         editConstraints.weightx = 0;
         edit = new JButton();
         buttonActions editStateChanger = new buttonActions(edit, new Color(112,9,0), new Color(100,16,0), new Color(150,9,0));
-        icon.setIconAndFormat("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\EditIcon.png", edit, new Color(112,9,0));
+        
+        icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\EditIcon.png", edit, new Color(112,9,0));
         toolbarPanel.add(edit, editConstraints);
         
         
@@ -129,9 +130,9 @@ public class Gui {
         buttonActions minimizeStateChanger = new buttonActions(minimize, exitBarPanel.getBackground(),mouseOnColor,clickedStateColor);
         buttonActions maximizeStateChanger = new buttonActions(maximize, exitBarPanel.getBackground(),mouseOnColor,clickedStateColor);
         
-        icon.setIconAndFormat("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\ExitButtonIcon.png", close,exitBarPanel.getBackground());
-        icon.setIconAndFormat("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\MinimizeButton.png", minimize, exitBarPanel.getBackground());
-        icon.setIconAndFormat("C:\\Users\\s591136\\Documents\\Classes\\ComSci\\MaximizeButton.png", maximize, exitBarPanel.getBackground());
+        icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\ExitButtonIcon.png", close,exitBarPanel.getBackground());
+        icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\MinimizeButton.png", minimize, exitBarPanel.getBackground());
+        icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\MaximizeButton.png", maximize, exitBarPanel.getBackground());
         
         
         GridBagConstraints minimizeLayoutConstraints = new GridBagConstraints();
@@ -157,7 +158,7 @@ public class Gui {
         
         buttonActions newClassStateChanger = new buttonActions(newClass, leftSideColor,mouseOnColor,clickedStateColor);
        
-        icon.setIconAndFormat("C:\\Users\\s591136\\Desktop\\NewIcon.png", newClass, leftSidePanel.getBackground());
+        icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\NewIcon.png", newClass, leftSidePanel.getBackground());
         
         
         GridBagLayout leftSideLayout = new GridBagLayout();
