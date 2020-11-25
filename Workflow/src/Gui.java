@@ -113,12 +113,15 @@ public class Gui {
         editConstraints.gridy = 0;
         editConstraints.weighty = 1;
         editConstraints.fill = GridBagConstraints.VERTICAL;
-        editConstraints.anchor = GridBagConstraints.BASELINE_TRAILING;
-        editConstraints.weightx = 0;
+        editConstraints.anchor = GridBagConstraints.EAST;
+        editConstraints.weightx = 1;
         edit = new JButton();
         buttonActions editStateChanger = new buttonActions(edit, new Color(112,9,0), new Color(100,16,0), new Color(150,9,0));
         
         icon.setIconAndFormat("X:\\Development\\GitHub\\WorkFlow\\WorkFlow\\EditIcon.png", edit, new Color(112,9,0));
+        toolbarPanel.add(new JLabel(), editConstraints);
+        editConstraints.gridx = 1;
+        editConstraints.weightx = 0;
         toolbarPanel.add(edit, editConstraints);
         
         
